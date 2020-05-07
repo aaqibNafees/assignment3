@@ -1,0 +1,256 @@
+.container{
+    margin: 0px auto;
+}
+
+.fab{
+    margin: 10px 0 10px 10px;
+    height: 30px;
+    width: 20px;
+    padding: 5px;   
+}
+.icon{
+    float: left;width: 150px;margin: 0px auto;
+}
+.donate p{
+    float: left;
+    background-color: white;
+    padding: 6px;
+    margin: 2px;
+    font-size: 14px;  
+    border: 1px solid green;
+}
+.donate{
+    float: right;
+    padding: 6px;
+}
+.text-new p{
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+    color: white;
+}
+.logo img{
+    height: 51.98px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.slide img {
+      width: 100%;
+}
+.marq{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.heading{
+    text-align: center;
+    margin-top: 30px;
+}
+.awsome{
+    background-color: #f5f5f5;
+}
+.awsome p{
+    text-align: justify;
+    visibility: visible;
+    margin-top: 20px;
+    line-height: 2em;
+}
+
+.count{
+    text-align: center;
+}
+.mobile{
+    background-color: #007bff;
+    /* margin-top: 30px; */
+}
+.count{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.count img{
+    height: 30px;
+}
+.hub h1{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+.hub{
+    text-align: center;
+    padding-bottom: 20px ;
+    padding-top: 20px;
+}
+.head{
+    background-color: #f7f8fa ;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.kchb{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 10px -5px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 1px 10px -5px rgba(0,0,0,1);
+    box-shadow: 1px 1px 10px -5px rgba(0,0,0,1);
+    margin: 10px;
+}
+.kchb h5{
+    padding-top: 30px;
+}
+.line{
+    background-color: green;
+    height: 4px;
+    width: 52px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.line-2{
+    background-color: green;
+    height: 4px;
+    width: 52px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.somthing{
+    margin-top: 50px;
+}
+.boxes{
+    background-color: #f5f5f5;
+    padding: 20px 10px 20px 10px;
+}
+.mission h3{
+    margin-left: 20px;
+}
+.mission-2 h3{
+    margin-left: 20px;
+}
+.heppa{
+    padding-left: 22px;
+}
+.boxes img{
+    padding-left: 20px;
+}
+.boxes{
+    margin-bottom: 20px;
+    
+}
+.gall h1{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+.gall{
+    text-align: center;
+    padding-bottom: 20px ;
+    padding-top: 50px;
+}
+.lastimages img{
+    width: 200px;
+    height: 151px;
+    margin-top: 30px;margin-left: 5px;margin-right: 5px;
+}
+.rashan:hover{
+    opacity: 0.5;
+    border: 5px solid lightgray;
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+.food:hover{
+    opacity: 0.5;
+    border: 5px solid lightgray;
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+.hazrat:hover{
+    opacity: 0.5;
+    border: 5px solid lightgray;
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+.hazrat2:hover{
+    opacity: 0.5;
+    border: 5px solid lightgray;
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+.rashan2:hover{
+    opacity: 0.5;
+    border: 5px solid lightgray;
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+.footer{
+    background-color: #25272e;
+    color: white;
+    padding-top: 30px;
+}
+.address{
+    color: green;
+    margin-right: 15px;
+}
+.foot{
+    color:#007bff;
+    font-size: 30px;
+}
+.copyright{
+    background-color:#007bff ;
+}
+.copy{
+    color: white;
+    padding-top: 10px;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+@media screen and (max-width:425px){
+    .icon{
+        margin-left: 100px;
+    }
+    .donate{
+        float: none;margin: 0px auto;width: 285px;height: 50px;
+    }
+}
+@media screen and (max-width:375px){
+    .icon{
+        margin-left: 80px;
+    }
+}
+@media screen and (min-width:992px){
+    .navbar-brand{
+        margin-right: 200px;
+    }
+}
+@media screen and (min-width:1024px){
+    .navbar-brand{
+        margin-right: 150px;
+    }
+}
+.container-fluid{
+    padding: 0px;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:#555; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
